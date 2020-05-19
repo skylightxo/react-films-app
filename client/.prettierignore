@@ -1,0 +1,10 @@
+node_modules
+.idea
+build
+.build
+dist
+coverage
+package-lock.json
+package.json
+public/manifest.json
+README.md

@@ -1,0 +1,20 @@
+{
+  "name": "react pet project",
+  "version": "1.0.0",
+  "description": "react pet project",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && npm start",
+    "server": "cd server && npm start",
+    "start": "./node_modules/.bin/concurrently \"npm run server\" \"npm run client\"",
+    "setup": "npm install && npm run setup:client && npm run setup:server",
+    "setup:client": "cd client && npm install",
+    "setup:server": "cd server && npm install"
+  },
+  "keywords": [],
+  "author": "Daniil Krutogolov",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.1"
+  }
+}
